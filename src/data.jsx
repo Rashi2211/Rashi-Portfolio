@@ -10,10 +10,10 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/project-1.jpeg";
-import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpeg";
-import Work4 from "./assets/project-4.jpeg";
+import Work1 from "./assets/easyBuy1.png";
+import Work2 from "./assets/easyBuy2.png";
+import Work3 from "./assets/easyBuy3.mp4";
+import Work4 from "./assets/vn1.jpg";
 import Work5 from "./assets/project-5.jpg";
 import Work6 from "./assets/project-6.jpg";
 
@@ -277,84 +277,74 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
+    type: "img",
     img: Work1,
-    title: "Photo Editing",
+    title: "E-commerce website Homepage",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: "E-commerce website for selling laptops and desktops",
       },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
+
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Photoshop",
+        desc: "HTML, CSS, Javascript, React JS, Node JS, MongoDB",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://github.com/Rashi2211/EasyBuy",
       },
     ],
   },
 
   {
     id: 2,
+    type: "img",
     img: Work2,
-    title: "Website Design",
+    title: "E-commerce website Product Page",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Website",
+        desc: "E-commerce website laptops page where the user can select the product and add to cart",
       },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
+
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "React JS",
+        desc: "HTML, CSS, Javascript, React JS, Node JS, MongoDB",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://github.com/Rashi2211/EasyBuy",
       },
     ],
   },
 
   {
     id: 3,
+    type: "video",
     img: Work3,
-    title: "Video Editing",
+    title: "E-Commerce Website Video",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        desc: "Video of the project EasyBuy",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "HTML, CSS, Javascript, React JS, Node JS, MongoDB",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://github.com/Rashi2211/EasyBuy",
       },
     ],
   },
@@ -362,6 +352,7 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
+    type: "img",
     title: "Video Editing",
     details: [
       {
@@ -390,6 +381,7 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
+    type: "img",
     title: "Landing Page",
     details: [
       {
@@ -414,6 +406,7 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
+    type: "img",
     title: "Photo Editing",
     details: [
       {

@@ -1,14 +1,31 @@
 import React, { useState } from "react";
 import Close from "../assets/close.svg";
 
-const PortfolioItem = ({ img, title, details }) => {
+const PortfolioItem = ({ img, type, title, details }) => {
   const [showModal, setShowModal] = useState(false);
   const toggleModal = () => {
     setShowModal(!showModal);
   };
+
+  const renderMedia = () => {
+    if (type === "img") {
+      return <img src={img} alt="" className="portfolio__img" />;
+    } else if (type === "video") {
+      return (
+        <video controls className="portfolio__img">
+          <source src={img} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      );
+    }
+
+    return null; // Handle other types or no type specified
+  };
+
   return (
     <div className="portfolio__item">
-      <img src={img} alt="" className="portfolio__img" />
+      {renderMedia()}
+      {/* <img src={img} alt="" className="portfolio__img" /> */}
       <div className="portfolio__hover" onClick={toggleModal}>
         <h3 className="portfolio__title">{title}</h3>
       </div>
@@ -30,13 +47,21 @@ const PortfolioItem = ({ img, title, details }) => {
 
                     <div>
                       <span className="item__title">{title}</span>
-                      <span className="item__details">{desc}</span>
+                      <a
+                        href={desc}
+                        target="_blank"
+                        className="item__details"
+                        rel="noreferrer"
+                      >
+                        {desc}
+                      </a>
                     </div>
                   </li>
                 );
               })}
             </ul>
-            <img src={img} alt="" className="modal__img" />
+            {renderMedia()}
+            {/* <img src={img} alt="" className="modal__img" /> */}
           </div>
         </div>
       )}
