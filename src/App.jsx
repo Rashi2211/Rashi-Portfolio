@@ -19,28 +19,23 @@ function App() {
         <div id="home-section">
           <Home />
         </div>
-        <br />
+
         <div id="about-section">
           <About />
         </div>
 
-        <br />
         <div id="skills-section">
           <SkillsComponent />
         </div>
-        <br />
         <div id="experience-section">
           <Experience />
         </div>
-        <br />
         <div id="portfolio-section">
           <Portfolio />
         </div>
-        <br />
         <div id="contact-section">
           <Contact />
         </div>
-        <br />
       </BrowserRouter>
     </>
     // <BrowserRouter>

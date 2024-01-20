@@ -8,7 +8,7 @@ import {
   FaCode,
   FaLaptopCode,
 } from "react-icons/fa";
-import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
+import { FiFileText, FiExternalLink } from "react-icons/fi";
 
 import Work1 from "./assets/easyBuy1.png";
 import Work2 from "./assets/easyBuy2.png";
