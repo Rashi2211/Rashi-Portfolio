@@ -14,8 +14,8 @@ import Work1 from "./assets/easyBuy1.png";
 import Work2 from "./assets/easyBuy2.png";
 import Work3 from "./assets/easyBuy3.mp4";
 import Work4 from "./assets/vn1.jpg";
-import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
+import Work5 from "./assets/vn2.jpg";
+import Work6 from "./assets/vn3.mp4";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -353,18 +353,14 @@ export const portfolio = [
     id: 4,
     img: Work4,
     type: "img",
-    title: "Video Editing",
+    title: "Movies App Homepage",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
         desc: "Video",
       },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
+
       {
         icon: <FaCode />,
         title: "Language : ",
@@ -382,16 +378,13 @@ export const portfolio = [
     id: 5,
     img: Work5,
     type: "img",
-    title: "Landing Page",
+    title: "Movies App Grid View",
     details: [
       {
         title: "Project : ",
         desc: "Website",
       },
-      {
-        title: "Client : ",
-        desc: "Dribble",
-      },
+
       {
         title: "Language : ",
         desc: "React JS, Node JS",
@@ -406,7 +399,7 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    type: "img",
+    type: "video",
     title: "Photo Editing",
     details: [
       {
@@ -414,11 +407,7 @@ export const portfolio = [
         title: "Project : ",
         desc: "Photo",
       },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
+
       {
         icon: <FaCode />,
         title: "Language : ",
