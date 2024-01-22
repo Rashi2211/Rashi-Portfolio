@@ -3,6 +3,8 @@ import Info from "../../components/Info";
 import Stats from "../../components/Stats";
 import { resume } from "../../data";
 import { FaDownload } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 import Resume from "../../assets/Rashi's Resume.pdf";
 import "./about.css";
 import ResumeItem from "../../components/ResumeItem";
@@ -38,6 +40,25 @@ const About = () => {
               <FaDownload />
             </span>
           </a>
+          <div className="git__icon">
+            <a
+              href="https://github.com/Rashi2211"
+              target="_blank"
+              rel="noreferrer"
+              className="github__icon"
+            >
+              <FaGithub />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/rashi-tiwari-web-developer/"
+              target="_blank"
+              rel="noreferrer"
+              className="linkedin__icon"
+            >
+              <FaLinkedin />
+            </a>
+          </div>
         </div>
 
         <div className="stats grid">

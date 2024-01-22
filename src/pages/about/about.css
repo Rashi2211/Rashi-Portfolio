@@ -75,6 +75,17 @@
   margin-bottom: 50px;
 }
 
+.git__icon {
+  font-size: var(--big-font-size);
+  text-align: center;
+  color: var(--first-color);
+  margin-top: -4rem;
+  margin-left: 10rem;
+}
+.github__icon {
+  margin-right: 1.5rem;
+}
+
 .CircularProgressbar-path {
   stroke: var(--first-color) !important;
   stroke-linecap: butt !important;

@@ -72,6 +72,10 @@
   .form__input-div {
     margin-bottom: 24px;
   }
+  .git__icon {
+    margin-top: -3.5rem;
+    margin-left: 15rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -305,6 +309,11 @@
 
     margin: 0px 45px;
   }
+
+  .git__icon {
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -335,5 +344,10 @@
   }
   .section__subtitle {
     text-align: center;
+  }
+
+  .git__icon {
+    margin-top: 2rem;
+    margin-left: 0rem;
   }
 }
