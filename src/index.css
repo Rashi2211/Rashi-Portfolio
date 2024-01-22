@@ -276,6 +276,7 @@
   .home__content {
     margin-block: auto;
     text-align: left;
+    height: 17rem;
   }
   .style__switcher {
     top: 0%;
