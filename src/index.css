@@ -290,7 +290,7 @@
   }
 
   .info__title {
-    display: block;
+    /* display: block; */
     margin-bottom: 4px;
   }
 
