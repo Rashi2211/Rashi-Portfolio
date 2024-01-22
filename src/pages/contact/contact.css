@@ -9,7 +9,7 @@
 }
 
 .contact__description {
-  font-size: var(--small-font-size);
+  font-size: 20px;
   line-height: 1.6;
 }
 
@@ -30,12 +30,12 @@
 }
 
 .contact__info .info__title {
-  font-size: var(--sm all-font-size);
+  font-size: 20px;
 }
 
 .contact__info .info__desc {
   font-family: var(--body-font);
-  font-size: var(--small-font-size);
+  font-size: 20px;
   font-weight: var(--weight-500);
 }
 
@@ -67,7 +67,7 @@
 }
 
 .form__input-div {
-  margin-bottom: 30px;
+  margin-bottom: 65px;
 }
 
 .form__control {
@@ -87,7 +87,7 @@
 
 .textarea {
   resize: none;
-  height: 160px;
+  height: 220px;
 }
 
 .contact__button-icon {
