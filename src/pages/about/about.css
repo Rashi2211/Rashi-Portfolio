@@ -84,6 +84,11 @@
 }
 .github__icon {
   margin-right: 1.5rem;
+  color: var(--first-color);
+}
+
+.linkedin__icon {
+  color: var(--first-color);
 }
 
 .CircularProgressbar-path {
