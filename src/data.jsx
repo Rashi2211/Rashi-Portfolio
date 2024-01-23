@@ -358,18 +358,18 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
+        desc: "Movies App Homepage",
       },
 
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "HTML, CSS, Javascript, React JS, Prisma, GraphQL",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://github.com/Rashi2211/Viral_Nation_Frontend",
       },
     ],
   },
@@ -382,16 +382,16 @@ export const portfolio = [
     details: [
       {
         title: "Project : ",
-        desc: "Website",
+        desc: "Movies App Grid View",
       },
 
       {
         title: "Language : ",
-        desc: "React JS, Node JS",
+        desc: "HTML, CSS, Javascript, React JS, Prisma, GraphQL",
       },
       {
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://github.com/Rashi2211/Viral_Nation_Frontend",
       },
     ],
   },
@@ -405,18 +405,18 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: "Movies App Video",
       },
 
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Photoshop",
+        desc: "HTML, CSS, Javascript, React JS, Prisma, GraphQL",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dibble.com",
+        desc: "https://github.com/Rashi2211/Viral_Nation_Frontend",
       },
     ],
   },
