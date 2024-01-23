@@ -305,6 +305,10 @@
     text-align: center;
   }
 
+  .resume__data {
+    padding: 0px 20px 0px 10px;
+  }
+
   .stats__box {
     padding: 15px 15px 25px 20px;
 
