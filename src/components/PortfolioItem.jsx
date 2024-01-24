@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Close from "../assets/close.svg";
 
 const PortfolioItem = ({ img, type, title, details }) => {
@@ -6,6 +6,23 @@ const PortfolioItem = ({ img, type, title, details }) => {
   const toggleModal = () => {
     setShowModal(!showModal);
   };
+
+  const modalRef = useRef();
+
+  const handleClickOutside = (event) => {
+    if (modalRef.current && !modalRef.current.contains(event.target)) {
+      setShowModal(false);
+    }
+  };
+
+  useEffect(() => {
+    if (showModal) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [showModal]);
 
   const renderMedia = () => {
     if (type === "img") {
@@ -31,7 +48,7 @@ const PortfolioItem = ({ img, type, title, details }) => {
       </div>
       {showModal && (
         <div className="portfolio__modal">
-          <div className="portfolio__modal-content">
+          <div className="portfolio__modal-content" ref={modalRef}>
             <img
               src={Close}
               alt=""
