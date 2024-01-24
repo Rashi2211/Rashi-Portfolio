@@ -319,6 +319,9 @@
     margin-top: 2rem;
     margin-left: 0rem;
   }
+  .portfolio__modal {
+    width: 20px;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -354,5 +357,8 @@
   .git__icon {
     margin-top: 2rem;
     margin-left: 0rem;
+  }
+  .portfolio__modal {
+    width: 20px;
   }
 }
