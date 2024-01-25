@@ -400,7 +400,7 @@ export const portfolio = [
     id: 6,
     img: Work6,
     type: "video",
-    title: "Photo Editing",
+    title: "Movies App Video",
     details: [
       {
         icon: <FiFileText />,
