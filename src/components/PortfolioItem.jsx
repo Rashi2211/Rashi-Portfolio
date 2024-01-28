@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Close from "../assets/close.svg";
 
-const PortfolioItem = ({ img, type, title, details }) => {
+const PortfolioItem = ({ img, type, title, language, desc, link }) => {
   const [showModal, setShowModal] = useState(false);
   const toggleModal = () => {
     setShowModal(!showModal);
@@ -64,25 +64,31 @@ const PortfolioItem = ({ img, type, title, details }) => {
               />
               <h3 className="modal__title">{title}</h3>
               <ul className="modal__list grid">
-                {details?.map(({ icon, title, desc }, index) => {
-                  return (
-                    <li className="modal__item" key={index}>
-                      <span className="item__icon">{icon}</span>
-
-                      <div>
-                        <span className="item__title">{title}</span>
-                        <a
-                          href={desc}
-                          target="_blank"
-                          className="item__details"
-                          rel="noreferrer"
-                        >
-                          {desc}
-                        </a>
-                      </div>
-                    </li>
-                  );
-                })}
+                <li className="modal__item">
+                  <div>
+                    <b>Title: </b>
+                    <span className="item__title">{title}</span>
+                    <br />
+                    <br />
+                    <b>Language: </b>
+                    <span className="item__title">{language}</span>
+                    <br />
+                    <br />
+                    <b>Description: </b>
+                    <span className="item__title">{desc}</span>
+                    <br />
+                    <br />
+                    <b>Link: </b>
+                    <a
+                      href={link}
+                      target="_blank"
+                      className="item__details"
+                      rel="noreferrer"
+                    >
+                      {link}
+                    </a>
+                  </div>
+                </li>
               </ul>
               {renderMedia()}
               {/* <img src={img} alt="" className="modal__img" /> */}

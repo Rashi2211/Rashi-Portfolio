@@ -280,24 +280,9 @@ export const portfolio = [
     type: "img",
     img: Work1,
     title: "E-commerce website Homepage",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "E-commerce website for selling laptops and desktops",
-      },
-
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "HTML, CSS, Javascript, React JS, Node JS, MongoDB",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://github.com/Rashi2211/EasyBuy",
-      },
-    ],
+    language: "HTML, CSS, Javascript, React JS, Node JS, MongoDB",
+    desc: "E-commerce website for selling laptops and desktops",
+    link: "https://github.com/Rashi2211/EasyBuy",
   },
 
   {
@@ -305,24 +290,9 @@ export const portfolio = [
     type: "img",
     img: Work2,
     title: "E-commerce website Product Page",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "E-commerce website laptops page where the user can select the product and add to cart",
-      },
-
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "HTML, CSS, Javascript, React JS, Node JS, MongoDB",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://github.com/Rashi2211/EasyBuy",
-      },
-    ],
+    language: "HTML, CSS, Javascript, React JS, Node JS, MongoDB",
+    desc: "E-commerce website laptops page where the user can select the product and add to cart",
+    link: "https://github.com/Rashi2211/EasyBuy",
   },
 
   {
@@ -330,23 +300,9 @@ export const portfolio = [
     type: "video",
     img: Work3,
     title: "E-Commerce Website Video",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video of the project EasyBuy",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "HTML, CSS, Javascript, React JS, Node JS, MongoDB",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://github.com/Rashi2211/EasyBuy",
-      },
-    ],
+    language: "HTML, CSS, Javascript, React JS, Node JS, MongoDB",
+    desc: "Video of the project EasyBuy",
+    link: "https://github.com/Rashi2211/EasyBuy",
   },
 
   {
@@ -354,24 +310,9 @@ export const portfolio = [
     img: Work4,
     type: "img",
     title: "Movies App Homepage",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Movies App Homepage",
-      },
-
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "HTML, CSS, Javascript, React JS, Prisma, GraphQL",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://github.com/Rashi2211/Viral_Nation_Frontend",
-      },
-    ],
+    language: "HTML, CSS, Javascript, React JS, Prisma, GraphQL",
+    desc: "Movies App Homepage",
+    link: "https://github.com/Rashi2211/Viral_Nation_Frontend",
   },
 
   {
@@ -379,21 +320,9 @@ export const portfolio = [
     img: Work5,
     type: "img",
     title: "Movies App Grid View",
-    details: [
-      {
-        title: "Project : ",
-        desc: "Movies App Grid View",
-      },
-
-      {
-        title: "Language : ",
-        desc: "HTML, CSS, Javascript, React JS, Prisma, GraphQL",
-      },
-      {
-        title: "Preview : ",
-        desc: "https://github.com/Rashi2211/Viral_Nation_Frontend",
-      },
-    ],
+    language: "HTML, CSS, Javascript, React JS, Prisma, GraphQL",
+    desc: "Movies App Grid View",
+    link: "https://github.com/Rashi2211/Viral_Nation_Frontend",
   },
 
   {
@@ -401,24 +330,9 @@ export const portfolio = [
     img: Work6,
     type: "video",
     title: "Movies App Video",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Movies App Video",
-      },
-
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "HTML, CSS, Javascript, React JS, Prisma, GraphQL",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://github.com/Rashi2211/Viral_Nation_Frontend",
-      },
-    ],
+    language: "HTML, CSS, Javascript, React JS, Prisma, GraphQL",
+    desc: "Movies App Video",
+    link: "https://github.com/Rashi2211/Viral_Nation_Frontend",
   },
 ];
 
