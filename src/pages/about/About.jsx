@@ -5,7 +5,7 @@ import { resume } from "../../data";
 import { FaDownload } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
-import Resume from "../../assets/Rashi's Resume3.pdf";
+import Resume from "../../assets/Updated Resume PG.pdf";
 import "./about.css";
 import ResumeItem from "../../components/ResumeItem";
 
